@@ -1,4 +1,4 @@
-build
-ffmpeg-*
-libsoxr-*
-openssl-*
+#build
+#ffmpeg-*
+#libsoxr-*
+#openssl-*

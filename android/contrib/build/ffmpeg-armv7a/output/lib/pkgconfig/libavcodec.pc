@@ -1,0 +1,14 @@
+prefix=/Users/liugang/Downloads/ijkplayer-master/android/contrib/build/ffmpeg-armv7a/output
+exec_prefix=${prefix}
+libdir=/Users/liugang/Downloads/ijkplayer-master/android/contrib/build/ffmpeg-armv7a/output/lib
+includedir=/Users/liugang/Downloads/ijkplayer-master/android/contrib/build/ffmpeg-armv7a/output/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 57.107.100
+Requires: libswresample >= 2.9.100, libavutil >= 55.78.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -lssl -lcrypto -lm -lz -pthread -pthread
+Libs.private: 
+Cflags: -I${includedir}

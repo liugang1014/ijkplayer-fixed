@@ -1,0 +1,14 @@
+prefix=/Users/liugang/Downloads/ijkplayer-master/android/contrib/build/ffmpeg-armv7a/output/shared
+exec_prefix=${prefix}
+libdir=/Users/liugang/Downloads/ijkplayer-master/android/contrib/build/ffmpeg-armv7a/output/shared/lib
+includedir=/Users/liugang/Downloads/ijkplayer-master/android/contrib/build/ffmpeg-armv7a/output/shared/include
+
+Name: libswresample
+Description: FFmpeg audio resampling library
+Version: 2.9.100
+Requires: libavutil >= 55.78.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lijkffmpeg -lm
+Libs.private: 
+Cflags: -I${includedir}
